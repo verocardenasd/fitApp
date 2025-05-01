@@ -69,7 +69,6 @@ function NavBar(props: NavBarProps) {
               {part.toUpperCase()}
             </Button>
           ))}
-          asd
         </VStack>
       </Box>
     </>
