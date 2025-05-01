@@ -17,7 +17,7 @@ function ExercisesByBodyPart(props: ExercisesByBodyPartProps) {
             <Box
               key={exercise.id}
               p="4"
-              bg="white"
+              bg="blue"
               borderRadius="lg"
               boxShadow="md"
               _hover={{ boxShadow: "xl", transform: "scale(1.02)" }}
