@@ -1,5 +1,5 @@
 import { Box, Image, SimpleGrid, Text, VStack } from "@chakra-ui/react";
-import useExcersies from "./hooks/useExcersies";
+import useExcersies from "../hooks/useExcersies";
 
 function AllExercises() {
   const { exercises } = useExcersies();

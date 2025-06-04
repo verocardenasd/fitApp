@@ -2,7 +2,7 @@ import "./App.css";
 import NavBar from "./NavBar";
 import ExercisesByBodyPart from "./ExercisesByBodyPart";
 import { useState } from "react";
-import AllExercises from "./AllExercises";
+import AllExercises from "./components-app/AllExercises";
 import { Exercise } from "./hooks/useExcersies";
 import { Flex, useDisclosure } from "@chakra-ui/react";
 import ModalExercisesByBodyPart from "./ModalExercisesByBodyPart";
