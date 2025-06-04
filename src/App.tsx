@@ -1,11 +1,11 @@
 import "./App.css";
-import NavBar from "./NavBar";
-import ExercisesByBodyPart from "./ExercisesByBodyPart";
+import NavBar from "./components-app/NavBar";
+import ExercisesByBodyPart from ".//components-app/ExercisesByBodyPart";
 import { useState } from "react";
 import AllExercises from "./components-app/AllExercises";
 import { Exercise } from "./hooks/useExcersies";
 import { Flex, useDisclosure } from "@chakra-ui/react";
-import ModalExercisesByBodyPart from "./ModalExercisesByBodyPart";
+import ModalExercisesByBodyPart from ".//components-app/ModalExercisesByBodyPart";
 
 function App() {
   const [excersise, setExcersise] = useState<Exercise[]>([]);

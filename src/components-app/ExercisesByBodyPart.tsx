@@ -1,5 +1,5 @@
 import { Box, Image, SimpleGrid, Text, VStack } from "@chakra-ui/react";
-import { Exercise } from "./hooks/useExcersies";
+import { Exercise } from "../hooks/useExcersies";
 
 interface ExercisesByBodyPartProps {
   exercises: Exercise[];
@@ -17,7 +17,7 @@ function ExercisesByBodyPart(props: ExercisesByBodyPartProps) {
             <Box
               key={exercise.id}
               p="4"
-              bg="blue"
+              bg="white"
               borderRadius="lg"
               boxShadow="md"
               _hover={{ boxShadow: "xl", transform: "scale(1.02)" }}

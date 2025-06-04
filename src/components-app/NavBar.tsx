@@ -1,7 +1,7 @@
 import { Box, Button, Heading, VStack } from "@chakra-ui/react";
 import { useEffect, useState } from "react";
-import useExercisesByBodyPart from "./hooks/useExercisesByBodyPart";
-import { Exercise } from "./hooks/useExcersies";
+import useExercisesByBodyPart from "../hooks/useExercisesByBodyPart";
+import { Exercise } from "../hooks/useExcersies";
 
 interface NavBarProps {
   setExcersise: (excersise: Exercise[]) => void;

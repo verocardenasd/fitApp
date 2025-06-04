@@ -7,7 +7,7 @@ import {
   ModalOverlay,
 } from "@chakra-ui/modal";
 import { Box, Button, Image, Text, VStack } from "@chakra-ui/react";
-import { Exercise } from "./hooks/useExcersies";
+import { Exercise } from "../hooks/useExcersies";
 
 interface ModalExercisesByBodyPartProps {
   open: boolean;
